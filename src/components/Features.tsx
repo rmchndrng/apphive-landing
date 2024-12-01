@@ -3,22 +3,22 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const features = [
   {
-    icon: <Zap className="h-10 w-10 text-primary" />,
+    icon: <Zap className="h-10 w-10 text-sky-500" />,
     title: "Lightning Fast",
     description: "Generate complete applications in minutes, not hours or days.",
   },
   {
-    icon: <Code className="h-10 w-10 text-primary" />,
+    icon: <Code className="h-10 w-10 text-sky-500" />,
     title: "Clean Code",
     description: "Production-ready code that follows best practices and patterns.",
   },
   {
-    icon: <Puzzle className="h-10 w-10 text-primary" />,
+    icon: <Puzzle className="h-10 w-10 text-sky-500" />,
     title: "Customizable",
     description: "Easily modify and extend your generated applications.",
   },
   {
-    icon: <Shield className="h-10 w-10 text-primary" />,
+    icon: <Shield className="h-10 w-10 text-sky-500" />,
     title: "Secure",
     description: "Built-in security features and best practices.",
   },
@@ -33,7 +33,7 @@ export const Features = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
+            <Card key={index} className="border-2 hover:border-sky-500/50 transition-colors">
               <CardContent className="pt-6">
                 <div className="text-center">
                   {feature.icon}

@@ -29,7 +29,7 @@ const plans = [
 
 export const Pricing = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-violet-50">
+    <section className="py-20 bg-gradient-to-b from-white to-sky-50">
       <div className="container">
         <h2 className="text-4xl font-bold text-center mb-12">Simple, Transparent Pricing</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -46,12 +46,12 @@ export const Pricing = () => {
                 <ul className="space-y-4">
                   {plan.features.map((feature, i) => (
                     <li key={i} className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-primary" />
+                      <Check className="h-5 w-5 text-sky-500" />
                       <span>{feature}</span>
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full mt-8">Get Started</Button>
+                <Button className="w-full mt-8 bg-sky-500 hover:bg-sky-600">Get Started</Button>
               </CardContent>
             </Card>
           ))}
