@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-gradient-to-b from-violet-50 to-white">
+    <div className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-gradient-to-b from-violet-50 to-white py-16">
       <div className="absolute inset-0 w-full h-full bg-grid-black/[0.02] bg-grid-16" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
